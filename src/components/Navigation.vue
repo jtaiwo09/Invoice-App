@@ -1,8 +1,10 @@
 <template>
   <header class="flex">
-    <div class="branding flex">
-      <img src="@/assets/file-invoice-dollar-solid.png" alt="" />
-    </div>
+    <router-link :to="{ name: 'Home' }">
+      <div class="branding flex">
+        <img src="@/assets/file-invoice-dollar-solid.png" alt="" />
+      </div>
+    </router-link>
   </header>
 </template>
 
